@@ -1,8 +1,8 @@
 # Brain Tumor Detection Using Deep Learning Techniques
-# 📌 Overview
+## 📌 Overview
 This project focuses on the automated detection of brain tumors from MRI images using deep learning techniques. Multiple models were implemented and evaluated, including VGG-19, ResNet, K-Nearest Neighbors (KNN), Kolmogorov-Arnold Networks (KAN), and Deep Belief Network (DBN). The objective was to identify the most accurate and reliable model for classifying brain tumors from MRI scans.
 
-# 🧩 Dataset
+## 🧩 Dataset
 The dataset consists of a total of 253 Brain MRI images, organized into two categories:
 
 Yes Folder (155 images): Contains MRI images diagnosed with brain tumors.
@@ -11,7 +11,7 @@ No Folder (98 images): Contains MRI images with no tumors (healthy).
 
 This balanced but moderately sized dataset allows for binary classification of brain tumor presence based on image inputs.
 
-# 📊 Models and Accuracy
+## 📊 Models and Accuracy
 The table below summarizes the training and testing accuracy scores achieved by each model:
 
 <table border="1">
@@ -57,8 +57,7 @@ The table below summarizes the training and testing accuracy scores achieved by 
   </tbody>
 </table>
 
-
-# 📁 Project Files
+## 📁 Project Files
 The repository contains the following Jupyter Notebook files for model implementations:
 
 code1-KAN.ipynb – Implementation of the Kolmogorov-Arnold Networks (KAN) model.
@@ -71,7 +70,7 @@ code4-RESNET.ipynb – Implementation of the ResNet model.
 
 code5-DBN.ipynb – Implementation of the Deep Belief Network (DBN) model.
 
-# ✅ Results and Observations
+## ✅ Results and Observations
 <ul>
     <li><b>VGG-19</b> achieved the <b>highest test accuracy (94.44%)</b>, demonstrating superior feature extraction and generalization.</li>
     <li><b>KAN</b> followed with a strong <b>88.89% test accuracy</b>, showing reliable performance.</li>
@@ -80,7 +79,7 @@ code5-DBN.ipynb – Implementation of the Deep Belief Network (DBN) model.
     <li>Overall, <b>VGG-19</b> and <b>KAN</b> emerged as the most effective models in this project for brain tumor detection from MRI images.</li>
 </ul>
 
-# 🚀 Future Improvements
+## 🚀 Future Improvements
 Hyperparameter Tuning: Explore advanced optimization techniques (Grid Search, Bayesian Optimization) for improving model performance.
 
 Data Augmentation: Apply data augmentation techniques to increase dataset variability and improve model robustness.
@@ -89,5 +88,5 @@ Advanced Architectures: Experiment with more sophisticated architectures like Ef
 
 Transfer Learning Improvements: Further fine-tuning of pre-trained networks to enhance generalization on medical imaging tasks.
 
-# 📢 Conclusion
+## 📢 Conclusion
 The project demonstrates the potential of deep learning in medical imaging applications. VGG-19 emerged as the most effective model in this case. With further refinements like data augmentation and hyperparameter optimization, the performance could be further improved for real-world applications.
